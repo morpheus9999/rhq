@@ -254,7 +254,7 @@
           ~~ for details and browser versions
           ~~ Possible values are: ie6,ie8,ie9,gecko,gecko1_8,safari,opera
         -->
-        <gwt.userAgent>ie8,ie9, gecko,gecko1_8,safari,opera</gwt.userAgent>
+        <gwt.userAgent>gecko,gecko1_8,safari,opera</gwt.userAgent>
         <!-- Only gwt-compile JavaScript for FF2 and later. -->
         <!--<gwt.userAgent>gecko1_8</gwt.userAgent>-->
         <!-- Enable faster, but less-optimized, gwt compilations. -->
