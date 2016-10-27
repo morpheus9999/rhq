@@ -243,7 +243,7 @@
              When built with the dev profile, RHQ will install its compontents under various directories underneath it:
              ${rhq.rootDir}/dev-container - the RHQ installation itself
              ${rhq.rootDir}/rhq-data - the metric data directory (will appear after successful "rhqctl install") -->
-        <rhq.rootDir>SET_ME</rhq.rootDir>
+        <rhq.rootDir>/opt/rhq/builds</rhq.rootDir>
 
         <!-- Alternatively, if you don't want to use the default location of {rhq.rootDir}/dev-container/
              for your dev container, then set the below prop to the desired location. -->
@@ -254,7 +254,7 @@
           ~~ for details and browser versions
           ~~ Possible values are: ie6,ie8,ie9,gecko,gecko1_8,safari,opera
         -->
-        <gwt.userAgent>SET_ME</gwt.userAgent>
+        <gwt.userAgent>gecko1_8</gwt.userAgent>
         <!-- Only gwt-compile JavaScript for FF2 and later. -->
         <!--<gwt.userAgent>gecko1_8</gwt.userAgent>-->
         <!-- Enable faster, but less-optimized, gwt compilations. -->
